@@ -107,6 +107,11 @@ p#desc {
     font-size: 1.15rem;
     text-align:justify;
     text-justify: inter-word;
+    color:#444;
+}
+
+p#desc strong {
+    color:#A43023;
 }
 
 h2#meryll {
