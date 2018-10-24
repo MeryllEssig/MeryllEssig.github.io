@@ -1,21 +1,50 @@
 /*------------------ 1. General ------------------*/
 html {
 	height: 100vh;
-	width: 100vw;
+    width: 100vw;
+    background: #8E0E00;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #1F1C18, #000E8E);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #DDD, #000E8E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+}
+
+* {
+    box-sizing: border-box;
+    
+}
+
+.navbar {
+    background: transparent;
 }
 
 body {
-	background-color: #fff;
 	font-family: 'Lato', sans-serif;
-	color: #616161;
+    color: #616161;
+    max-width: 100%;
+}
+
+section {
+    max-width: 100%;
+}
+
+.circle {
+    margin-top: 20px;
+    box-shadow: 0 0 5px 11px rgba(104,0,175,.25), 0 0 5px 22px rgba(104,0,175,.15);
 }
 
 section#home {
-    background-color: #2C3E50;
+    background: transparent; 
+    
     color: #fff;
     padding-top: 100px;
     height: 100vh;
     width: 100vw;
+    border-bottom: none;
+    margin:0;
 }
 
 section#about {
@@ -94,9 +123,9 @@ li#menucontact {
     padding-left: 14px;
 }
 
-.circle {
+/* .circle {
     box-shadow: 1px 1px 50px 5px #0C1E30, 0px 0px 50px 1px #1C2E40;
-}
+} */
 
 /*------------------ 3. About ------------------*/
 img#pic {
